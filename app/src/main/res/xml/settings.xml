@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/accounts">
+
+        <Preference
+            android:defaultValue="false"
+            android:key="manage_accounts"
+            android:summary="@string/manage_twitter_accounts"
+            android:title="@string/manage_accounts" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/appearance">
+
+        <ListPreference
+            android:entries="@array/themeEntries"
+            android:entryValues="@array/themeValues"
+            android:key="themes"
+            android:title="@string/theme"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+</PreferenceScreen>

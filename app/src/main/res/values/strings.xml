@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Kazenone</string>
+    <string name="accounts">Accounts</string>
+    <string name="manage_accounts">Manage accounts</string>
+    <string name="appearance">Appearance</string>
+    <string name="manage_twitter_accounts">Manage Twitter accounts</string>
+    <string name="theme">Theme</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
