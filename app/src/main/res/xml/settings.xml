@@ -13,6 +13,7 @@
     <PreferenceCategory android:title="@string/appearance">
 
         <ListPreference
+            android:defaultValue="0"
             android:entries="@array/themeEntries"
             android:entryValues="@array/themeValues"
             android:key="themes"

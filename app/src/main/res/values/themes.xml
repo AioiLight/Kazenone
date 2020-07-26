@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <array name="themeEntries">
+        <item>Follow System</item>
         <item>Light</item>
         <item>Dark</item>
-        <item>Black</item>
-        <item>Follow System (Dark)</item>
-        <item>Follow System (Black)</item>
     </array>
     <string-array name="themeValues">
         <item>0</item>
         <item>1</item>
         <item>2</item>
-        <item>3</item>
-        <item>4</item>
     </string-array>
 </resources>
